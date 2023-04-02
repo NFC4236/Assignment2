@@ -103,8 +103,8 @@ class Motorcycle extends Vehicle{
   }
 }
 
-const vehicle1 = new Motorcycle ("Audi", "A3", 2011, true,3000 , "Blue");
-const vehicle2 = new Motorcycle ("Pickup", "2016F", 2013, false,5000 , "Yellow");
+const vehicle1 = new Car ("Audi", "A3", 2011, true,3000 , "Blue");
+const vehicle2 = new Truck ("Pickup", "2016F", 2013, false,5000 , "Yellow");
 const vehicle3 = new Motorcycle ("Beta", "20-cc", 2015, true,1000 , "Black");
 
 console.log(vehicle1);
