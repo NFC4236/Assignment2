@@ -10,29 +10,17 @@
               return this._make;
     }
 
-    public setmake(makeNew:string){
-          this._make = makeNew;
-    }
+   
 
     public getmodel (){
           
         return this._model;
     }
 
-    public setmodel (newModel:string){
-          this._model= newModel;
-    }
+    
 
     public getyear(){
         return this._year;
-    }
-
-    public setyear (newYear: number){
-        this._year= newYear;
-    }
-
-    public getrented(){
-        return this._rented;
     }
 
     public setrented (newRent: boolean){
